@@ -9,13 +9,13 @@
 ### Clone the project
 
 ```bash
-  git clone https://github.com/Oosasukel/Desafio-Crosscommerce
+  git clone https://github.com/Oosasukel/desafio-crosscommerce
 ```
 
 ### Go to the project directory
 
 ```bash
-  cd Desafio-Crosscommerce
+  cd desafio-crosscommerce
 ```
 
 ### Install dependencies
