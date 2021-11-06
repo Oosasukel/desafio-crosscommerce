@@ -1,7 +1,7 @@
 # Usage
 
-```bash
-  GET https://Desafio-Crosscommerce.heroku.app/api/numbers?limit=50&page=1
+```
+  GET https://desafio-crosscommerce.herokuapp.com/api/numbers?limit=50&page=1
 ```
 
 # Run Locally
