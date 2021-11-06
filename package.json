@@ -6,8 +6,8 @@
   "license": "ISC",
   "scripts": {
     "dev": "nodemon -r tsconfig-paths/register src/server.ts",
-    "start": "set NODE_PATH=dist/&node dist/server.js",
-    "fetchNumbers": "set NODE_PATH=dist/&node dist/fetchAndSaveApiNumbers.js",
+    "start": "NODE_PATH=dist/ node dist/server.js",
+    "fetchNumbers": "NODE_PATH=dist/ node dist/fetchAndSaveApiNumbers.js",
     "build": "tsc",
     "test": "jest -i",
     "lint": "eslint --ext .ts src",
