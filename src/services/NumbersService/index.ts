@@ -46,7 +46,7 @@ const fetchAllNumbers = async () => {
 
     const newNumbers = await fetchPage();
 
-    if (page < 3) {
+    if (newNumbers.length === 0) {
       allNumbers.push(...newNumbers);
 
       console.log(`Buscando números: ${allNumbers.length}`);
